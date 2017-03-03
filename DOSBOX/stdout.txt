@@ -1,0 +1,8 @@
+DOSBox version 0.74
+Copyright 2002-2010 DOSBox Team, published under GNU GPL.
+---
+CONFIG:Loading primary settings from config file ..\dosbox-SS.conf 
+"hq" is not a valid value for variable: type.
+It might now be reset it to default value: normal2x
+CONFIG:Loading additional settings from config file ..\dosbox-SS-run.conf 
+MIDI:Opened device:win32
