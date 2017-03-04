@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Super-snake</title>
+    <style type="text/css">
+      .dosbox-container { width: 640px; height: 480px; }
+      .dosbox-container > .dosbox-overlay { background: url(/screenshot.png); }
+      .dosbox-start { font-size: 35px !important; }
+    </style>
+  </head>
+  <body>
+	<h1>Play super-snake</h1>
+	<p>An old-school game fully written in Pascal with custom direct-memory drawing</p>
+  
+    <div id="dosbox"></div>
+    <br/>
+    <button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
+    
+    <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+    <script type="text/javascript">
+      var dosbox = new Dosbox({
+        id: "dosbox",
+        onload: function (dosbox) {
+          dosbox.run("/SSNAKE2.zip", "./SSNAKET2.EXE");
+        },
+        onrun: function (dosbox, app) {
+          console.log("App '" + app + "' is runned");
+        }
+      });
+    </script>
+  </body>
+</html>
