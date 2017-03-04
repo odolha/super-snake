@@ -6,7 +6,7 @@
     <title>Super-snake</title>
     <style type="text/css">
       .dosbox-container { width: 640px; height: 480px; }
-      .dosbox-container > .dosbox-overlay { background: url(/web/public/screenshot.png); }
+      .dosbox-container > .dosbox-overlay { background: url(/screenshot.png); }
       .dosbox-start { font-size: 35px !important; }
     </style>
   </head>
@@ -23,7 +23,7 @@
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("/web/public/SSNAKE2.zip", "./SSNAKET2.EXE");
+          dosbox.run("/SSNAKE2.zip", "./SSNAKET2.EXE");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");
