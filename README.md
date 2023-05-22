@@ -15,7 +15,7 @@ Features:
 
 # Play online
 
-This game is available to play online using js-dos here: https://super-snake-game.herokuapp.com/
+This game is available to play online using js-dos here: https://ssnake.ddns.net
 
 # Play locally
 
