@@ -15,7 +15,7 @@ Features:
 
 # Play online
 
-This game is available to play online using js-dos here: https://ssnake.ddns.net
+This game is available to play online using js-dos here: https://ssnake.mole.onl
 
 # Play locally
 
